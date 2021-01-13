@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="4dp">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp">
+
+        <TextView
+            android:id="@+id/nomeUsuario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="5dp"
+            android:text="Ricardo Niclas Lopes"
+            android:textAlignment="viewStart"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/emailUsuario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nomeUsuario"
+            android:layout_marginTop="0dp"
+            android:text="ricardoniclaslopes@gmail.com" />
+
+        <EditText
+            android:id="@+id/senhaUsuario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/emailUsuario"
+            android:ems="10"
+            android:hint="Senha"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/btnExcluirRecycler"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/btnLogarRecycler"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@+id/btnLogarRecycler"
+            android:textSize="10sp"
+            android:text="Excluir"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/btnLogarRecycler"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/senhaUsuario"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@+id/senhaUsuario"
+            android:text="Logar" />
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
