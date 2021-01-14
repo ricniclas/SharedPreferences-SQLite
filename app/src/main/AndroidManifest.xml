@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ArquivoPreferencias">
-        <activity android:name=".ViewUsers"></activity>
+        <activity android:name=".AmostraFragments"></activity>
+        <activity android:name=".ViewUsers" />
         <activity android:name=".NewUserActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>

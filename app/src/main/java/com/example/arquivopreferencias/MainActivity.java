@@ -95,6 +95,13 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
+        Button btnFragmentos = findViewById(R.id.btnVerFragmentos);
+        btnFragmentos.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, AmostraFragments.class));
+            }
+        });
 
     }
 }

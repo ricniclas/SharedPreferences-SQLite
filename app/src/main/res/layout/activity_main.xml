@@ -102,4 +102,13 @@
         app:layout_constraintStart_toEndOf="@+id/btnNovoUsuario"
         app:layout_constraintTop_toTopOf="@+id/btnNovoUsuario" />
 
+    <Button
+        android:id="@+id/btnVerFragmentos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Fragments"
+        app:layout_constraintStart_toStartOf="@+id/btnGravar"
+        app:layout_constraintTop_toBottomOf="@+id/btnGravar" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
